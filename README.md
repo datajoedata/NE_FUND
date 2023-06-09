@@ -11,12 +11,12 @@ While I acknowledge that accessing specific outcomes may be challenging, assessi
 
 Extra context: 
 
+
 1- The Open Data Initiative of the Brazilian Government:
 The Brazilian government has recognized the significant value of open data in fostering transparency, promoting accountability, and driving innovation. As a result, it has implemented an open data initiative to make government data accessible to the public. To ensure the success of the initiative, the Brazilian government has established a dedicated platform where datasets from various government agencies are published and regularly updated.
 
 2- What is the FNE? 
 Provided with federal resources, the FNE (Northeast Development Fund) finances long-term investments and, in addition, working capital or operational costs. It covers various sectors of the economy, such as agriculture, livestock, industry, agribusiness, tourism, trade, services, culture, infrastructure, among others.
-
 
 
 3- The data contains 9005088 rows x 10 columns
