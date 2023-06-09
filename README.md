@@ -6,7 +6,7 @@ Northeast Investment Fund: Uncovering Inconsistencies in Brazil's National Devel
 This data was previously extracted from Brazil's governmental website http://ftp.sudene.gov.br/dados_abertos/FNE/
 and cleaned by me.  
 
-While I acknowledge that accessing specific outcomes may be challenging, assessing the inputs and allocation of resources is a crucial step in understanding the fund's functioning and potential areas of concern. By closely examining the data provided by the regional bank, we aim to identify any discrepancies, misalignments, or potential irregularities in how the fund's resources are allocated across various projects and sectors within the Northeast region. 
+While I acknowledge that accessing specific outcomes may be challenging, assessing the inputs and allocation of resources is a crucial step in understanding the fund's functioning and potential areas of concern. By closely examining the data provided by the regional bank, we aim to identify any discrepancies, misalignments, or potential irregularities in how the fund's resources are allocated across various sectors within the Northeast region. 
 
 
 Extra context: 
