@@ -2,8 +2,8 @@
 
 import pandas as pd
 
-filename = r'C:\Users\ninol\Desktop\FUNDO_NE\FNE_ALL_fixed_encoding.csv'
-output_filename = r'C:\Users\ninol\Desktop\FUNDO_NE\FNE_ALL_modified.csv'
+filename = r'input_filepath'
+output_filename = r'output_filepath'
 df = pd.read_csv(filename, encoding='utf-8')
 
 
@@ -31,7 +31,7 @@ df.rename(columns=new_column_names, inplace=True)
 #//////////////////////  SEARCHING FOR ALL UNIQUE VALUES IN THE COLUMN URBAN_RURAL
 
 
-filename = r'C:\Users\ninol\Desktop\FUNDO_NE\FNE_ALL_modified.csv'
+filename = r'filepath'
 df = pd.read_csv(filename, encoding='utf-8')
 
 
@@ -108,5 +108,5 @@ print(unique_values3)
 df.to_csv(output_filename, index=False)
 
 # Save the modified DataFrame to a CSV file
-output_filename = r'C:\Users\ninol\Desktop\FUNDO_NE\FNE_ALL_modified.csv'
+output_filename = r'outputpathfile'
 df.to_csv(output_filename, index=False)
