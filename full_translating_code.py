@@ -11,6 +11,9 @@ df = pd.read_csv(filename, encoding='utf-8')
 
 
 # Define the new column names
+
+# REMINDER: Make sure to run the alteration columns first.
+
 new_column_names = {
     'DATA_CONTRATAÇÃO': 'HIRE_DATE',
     'CONTRATO': 'CONTRACT_NUMBER',
@@ -105,10 +108,6 @@ unique_values3 = df['SECTOR'].unique()
 print(unique_values3)
 
 
-
-
-# Save the modified DataFrame to the original file
-df.to_csv(output_filename, index=False)
 
 # Save the modified DataFrame to a CSV file
 output_filename = r'outputpathfile'
