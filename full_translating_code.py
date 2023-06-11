@@ -1,3 +1,6 @@
+#FOR THOSE WHO WANT TO CHECK ALL THE JOB
+
+
 #////////////////// TRANSLATING ALL COLUMNS NAMES
 
 import pandas as pd
