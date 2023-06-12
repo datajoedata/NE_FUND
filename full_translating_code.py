@@ -12,7 +12,7 @@ df = pd.read_csv(filename, encoding='utf-8')
 
 # Define the new column names
 
-# REMINDER: Make sure to run the alteration columns first.
+# REMINDER: Make sure to run columns alteration first.
 
 new_column_names = {
     'DATA_CONTRATAÇÃO': 'HIRE_DATE',
