@@ -19,4 +19,5 @@ The Brazilian government has recognized the significant value of open data in fo
 Provided with federal resources, the FNE (Northeast Development Fund) finances long-term investments and, in addition, working capital or operational costs. It covers various sectors of the economy, such as agriculture, livestock, industry, agribusiness, tourism, trade, services, culture, infrastructure, among others.
 
 
-3- The data contains 9005088 rows x 10 columns, and it's in PT/BR. I'll try to upload a translated dataset after finishing. 
+3- The data contained 9005090 rows x 10 columns before splitting and it was in PT/BR. I'll upload two translated datasets, one cleaned, and one with all the errors. 
+
