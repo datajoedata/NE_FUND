@@ -20,7 +20,7 @@ print(df.columns)
 #               'SECTOR', 'CONTRACT_VALUE']dtype='object')
 
 
-#4- Dropping columns that isn't necessaire: 'PROGRAM' column:
+#4- Dropping columns that isn't necessair: 'PROGRAM' column:
 
 df = df.drop('PROGRAM', axis=1)
 
@@ -59,16 +59,49 @@ print("Occurrences of 'Not Specified' in BUSINESS_SIZE column:", count_business_
 print("Occurrences of NaN in BUSINESS_SIZE column:", count_business_size_nan)
 print("Occurrences of NaN in LEGALENTITY_PHYSICALENTITY column:", count_legalent_physicalentity_nan)
 
-# Number of rows remaining:   8832976
+# Number of remain:   8832976
 # Occurrences of invalid HIRE_DATE values:   157325
 # Occurrences of 'Not Specified' in BUSINESS_SIZE column:   88
 # Occurrences of NaN in BUSINESS_SIZE column:   17583
 # Occurrences of NaN in LEGALENTITY_PHYSICALENTITY column:   4106
 
 
-
 # Save the main DataFrame with removed rows and 'PROGRAM' column to a new file
-df_cleaned.to_csv(r'FNE_ALL_CLEANED.csv', index=False)
+df_cleaned.to_csv(r'FNE_ALL_CLEAN.csv', index=False)
 
 # Save the errors DataFrame to a new file
 errors.to_csv(r'FNE_ALL_ERRORS.csv', index=False)
+
+
+# DO THIS STEP SEPARETELY 
+
+
+#11- Fixing values on CONTRACT_VALUE column:
+
+filename = r'C:\Users\ninol\Desktop\FUNDO_NE\FNE_ALL_CLEAN.csv'
+output_filename = r'C:\Users\ninol\Desktop\FUNDO_NE\FNE_ALL_CLEAN.csv'
+
+df = pd.read_csv(filename, encoding='utf-8', dtype={'CONTRACT_VALUE': str})
+
+# Removing double quotes from the values in the 'CONTRACT_VALUE' column
+df['CONTRACT_VALUE'] = df['CONTRACT_VALUE'].str.strip('"')
+
+# Removing commas from the values in the 'CONTRACT_VALUE' column
+df['CONTRACT_VALUE'] = df['CONTRACT_VALUE'].str.replace(',', '')
+
+# Convert the 'CONTRACT_VALUE' column to numeric type
+df['CONTRACT_VALUE'] = pd.to_numeric(df['CONTRACT_VALUE'], errors='coerce')
+
+# Print the data type to confirm sample of values in the 'CONTRACT_VALUE' column
+print('CONTRACT_VALUE')
+print(df['CONTRACT_VALUE'].dtype)
+print(df['CONTRACT_VALUE'].head(10))
+
+random_samples = df.sample(n=10)
+print(random_samples)
+
+#Saving again: 
+
+# Save the modified DataFrame to a new CSV file
+df.to_csv(output_filename, index=False, encoding='utf-8')
+
