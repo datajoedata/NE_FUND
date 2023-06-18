@@ -21,3 +21,4 @@ Provided with federal resources, the FNE (Northeast Development Fund) finances l
 
 3- The data contained 9005090 rows x 10 columns before splitting and it was in PT/BR. I'll upload two translated datasets, one cleaned, and one with all the errors. 
 
+4- I've uploaded the DATASETS in the kaggle platform: https://www.kaggle.com/datasets/datajoedata/brazilian-northeast-fund
