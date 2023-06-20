@@ -16,7 +16,7 @@ print(df.columns)
 
 
 # Output: Index(['HIRE_DATE', 'CONTRACT_NUMBER', 'MUNICIPALITY_CODE', 'STATE',
-#               'URBAN_RURAL', 'LEGALENTITY_PHYSICALENTITY', 'BUSINESS_SIZE', 'PROGRAM',
+#               'URBAN_RURAL', 'LEGALENTITY_PHYSICALENTITY', 'BUSINESS_SIZE',
 #               'SECTOR', 'CONTRACT_VALUE']dtype='object')
 
 
