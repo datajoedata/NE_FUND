@@ -1,7 +1,6 @@
 import pandas as pd
 
-filename = r'C:\Users\ninol\Desktop\FUNDO_NE\FNE_ALL_CLEAN.csv'
-output_filename = r'C:\Users\ninol\Desktop\FUNDO_NE\FNE_ALL_CLEAN.csv'
+filename = r'(filepath)
 
 df = pd.read_csv(filename, encoding='utf-8')
 
