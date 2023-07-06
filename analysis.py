@@ -38,7 +38,7 @@ print(df.columns)
 # this values here, Dunno if this was the case, but the respective Federal Bodies can lend loans in the name of FNE.
 
 
-# 3- Removing states and years that are out of our planned scope:
+# 3- Removing states and years that are out of our expected scope:
 
 excluded_states = ['MG', 'ES', 'RJ']   # ->>>> Are not part of NORTHEAST states
 df = df[~df['STATE'].isin(excluded_states)]
