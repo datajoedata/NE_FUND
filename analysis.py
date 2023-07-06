@@ -44,7 +44,7 @@ excluded_states = ['MG', 'ES', 'RJ']   # ->>>> Are not part of NORTHEAST states
 df = df[~df['STATE'].isin(excluded_states)]
 
 exclude_years = [1996, 1999, 2020]     # ->>>> 1996 and 1999 we're not from the expected years, and 2020 will prob
-# give us outlying values due to covid
+# give us outlying values due to covid especial financings
 
 df = df[~df['HIRE_DATE'].dt.year.isin(exclude_years)]
 
