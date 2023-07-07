@@ -1,11 +1,12 @@
 # NE_FUND #EXPLORATORYDATAANALYSIS #EDA #PYTHON #PANDAS 
+.
 
 
 Northeast Investment Fund: Uncovering Inconsistencies in Brazil's National Development Open Data iniciatives 
 
 
 
-
+.
 
 This data was previously extracted from Brazil's governmental website http://ftp.sudene.gov.br/dados_abertos/FNE/ 
 cleaned, and translated by me.  
