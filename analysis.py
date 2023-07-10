@@ -111,3 +111,19 @@ ax.plot([], [], color='lightcoral', linestyle='--', linewidth=0.8, label='Averag
 plt.legend(loc='upper right')
 
 plt.show()
+
+# 6- Now let's check if we have any weird values regarding municipality/State
+#    (A municipality code can only belong to one state)
+
+# Group the data by 'MUNICIPALITY_CODE' and check the unique values of 'STATE'
+municipality_state = df.groupby('MUNICIPALITY_CODE')['STATE'].unique()
+
+# Find municipality codes with multiple states
+municipality_codes_multiple_states = municipality_state[municipality_state.apply(lambda x: len(x) > 1)]
+
+# Check if all municipality codes have their equivalent state
+if len(municipality_codes_multiple_states) == 0:
+    print("All municipality codes have their equivalent state.")
+else:
+    print("Municipality codes with different states:")
+    print(municipality_codes_multiple_states)
