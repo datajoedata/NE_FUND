@@ -2,7 +2,7 @@
 .
 
 
-Northeast Investment Fund: Uncovering Inconsistencies in Brazil's National Development Open Data iniciatives 
+Northeast Investment Fund: Uncovering Brazil's National Development Open Data iniciatives 
 
 
 
