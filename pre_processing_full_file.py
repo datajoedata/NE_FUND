@@ -1,6 +1,7 @@
 #1- Before everything: Due to computing power this files were pre-pre processed in SQL Server Management Studio (SSMS) but only for concatenating purposes.
 
-#2- Pre-processing is a important step for every data related work, but if you aren't interested you should probably skip this step and go to the analysis file.
+#2- Pre-processing is a important step for every data related work, but if you aren't interested you should probably skip this step and go to the analysis
+#file.
 
 #3- Now let's use the df.columns method to have a look at the columns:
 
