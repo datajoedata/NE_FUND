@@ -1,4 +1,5 @@
 # NE_FUND #EXPLORATORYDATAANALYSIS #EDA #PYTHON #PANDAS 
+# this project still needs lot of futher improvs
 .
 
 
