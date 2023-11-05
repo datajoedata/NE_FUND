@@ -1,6 +1,7 @@
 # NE_FUND #EXPLORATORYDATAANALYSIS #EDA #PYTHON #PANDAS 
 # this project was my first and it is a newbie job, it needs lot of futher improvs
-.(I intend to remake it with all the knowledge i aquired)
+. (I intend to remake it in the near future, to keep track of all i've learned)
+
 
 Northeast Investment Fund: Uncovering Brazil's National Development Open Data iniciatives 
 
